@@ -21,7 +21,10 @@ div.container{
 
 .up-block-wrap{
     height: 300px;
-    background-image: url(images/header_photo.png);
+    background-image: url('../images/header_photo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 header{
     background-color: #353f46;
@@ -47,6 +50,13 @@ nav.main-menu a{
     font-size: 14px;
     display: inline-block;
 }
+h1{
+    font-weight: lighter;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
 .services-wrap, .twitter-section{
     background-color: #4bcaff;
 }
@@ -69,5 +79,7 @@ nav.main-menu a{
     width: 45px;
 }
 .who-is-wrap{
-
+    background-image: url(../images/social_network_photo.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
