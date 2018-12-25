@@ -1,8 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+    min-width: 1170px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+div.container{
+    width: 1170px;
+    margin: 0 auto;
+    paddint-top: 78px;
+}
 
+.up-block-wrap{
+    height: 300px;
+    background-image: url(images/header_photo.png);
+}
+header{
+    background-color: #353f46;
+    opacity: 0.85;
+    float: left;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
-
+}
+nav.main-menu{
+    width: 525px;
+    display: flex;
+    justify-content: space-between;
+}
+nav.main-menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+}
 .services-wrap, .twitter-section{
     background-color: #4bcaff;
+}
+.services-wrap div.services{
+    display: flex;
+}
+.headline{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 0.8;
+    text-align: center;
+
+}
+.headline:after {
+    content: "";
+    border-bottom: 2px solid white;
+    display: block;
+    width: 45px;
+}
+.who-is-wrap{
+
 }
