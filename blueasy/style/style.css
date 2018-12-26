@@ -54,7 +54,7 @@ nav.main-menu a{
     font-weight: bold;
     font-size: 14px;
     padding: 10px 17px;
-
+    border: 2px solid transparent;
 }
 
 
@@ -151,6 +151,7 @@ nav.portfolio-menu a{
     font-weight: bold;
     font-size: 14px;
     padding: 10px 17px;
+    border: 2px solid transparent;
 }
 
 .photo-gallery{
@@ -166,7 +167,6 @@ nav.portfolio-menu a{
 .photo-gallery img:hover{
     background-color: #495259;
     opacity: 0.902;
-
 }
 
 .default-section-wrap{
@@ -356,6 +356,10 @@ input{
     line-height: 1.714;
     margin-bottom: 0;
 
+}
+#form-button:hover{
+    background-color: #42b1e0;
+    opacity: 0.902;
 }
 textarea{
     width: 1170px;
