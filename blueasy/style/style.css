@@ -335,3 +335,29 @@ footer nav a{
     line-height: 2;
     text-decoration: none;
 }
+input{
+    width: 470px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    margin-bottom: 40px;
+}
+#form-button{
+    width: 370px;
+    background-color: #4bcaff;
+    border: none;
+    font-size: 14px;
+    font-family: "Segoe UI";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+
+}
+textarea{
+    width: 1170px;
+    height: 215px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    margin-bottom: 40px;
+}
